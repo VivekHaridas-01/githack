@@ -1,2 +1,4 @@
 numpy==1.21.3
 opencv_python==4.5.4.58
+Flask==2.0.1
+Werkzeug==2.0.1
