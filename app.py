@@ -204,15 +204,12 @@ def upload_file():
         print(ext)
         print(file.filename)
         if ext not in EXT:
-            print('ivde keri1')
             return redirect(er)
         # If the user does not select a file, the browser submits an
         # empty file without a filename.
         if file.filename == '':
-            print('ivde keri2')
             return redirect(er)
         if file and allowed_file(file.filename):
-            print('ivde keri3')
             filename = secure_filename(file.filename)
             f = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(f)
@@ -231,3 +228,4 @@ def error_page():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
+
