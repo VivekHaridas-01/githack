@@ -190,7 +190,7 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-@app.route('/home', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def upload_file():
     EXT = ['.png', '.jpg', '.jpeg', '.bmp', '.tiff']
     if request.method == 'POST':
@@ -224,7 +224,7 @@ def upload_file():
     return render_template("index.html")
 
 
-@app.route('/home/error')
+@app.route('/error')
 def error_page():
     return render_template("error.html")
 
