@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+      GitHack Image Processor
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Free HTML5 Template by FreeHTML5.CO" />
+    <meta
+      name="keywords"
+      content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"
+    />
+    <meta name="author" content="FreeHTML5.cO" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Prata"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/animate.css')}}" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/icomoon.css')}}" />
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/simple-line-icons.css')}}" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.css')}}" />
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.carousel.min.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}" />
+    <!-- Style -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" />
+
+    <!-- Modernizr JS -->
+    <script src="static/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header role="banner" id="fh5co-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- Mobile Toggle Menu Button -->
+            <a
+              href="#"
+              class="js-fh5co-nav-toggle fh5co-nav-toggle"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+              ><i></i
+            ></a>
+            <a class="navbar-brand" href="#"
+              ><span>GitHack Image Processor</span></a
+            >
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#" data-nav-section="home"><span>Home</span></a>
+              </li>
+              <li>
+                <a href="#" data-nav-section="about"><span>Learn More</span></a>
+              </li>
+              <li>
+                <a href="#" data-nav-section="practice-areas"
+                  ><span>Start Processing</span></a
+                >
+              </li>
+              <li>
+                <a href="#" data-nav-section="contact"><span>About Us</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      id="fh5co-home"
+      data-section="home"
+      style="background-image: url(static/images/full_image_3.jpg)"
+      data-stellar-background-ratio="0.5"
+    >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="text-wrap">
+          <div class="text-inner">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1 to-animate">
+                <h1>A Free Online Image Processing Website</h1>
+                <p style="color: #ffffff; font-size: 20px;">
+                  An Image Filter is a method or procedure for altering an image's colors, shade, hue, saturation, texture, and other features. They change the appearance of photos for commercial, creative, or aesthetic purposes. We designed a web application ‘GIT Hack Image Processor’ that allows users to apply filters onto their selected image file.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fh5co-about" data-section="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-md-pull-1">
+            <img
+              src="static/images/img_1.jpg"
+              class="img-shadow img-responsive"
+              alt="Free HTML5 Bootstrap Template"
+            />
+          </div>
+          <div class="col-md-5">
+            <h2>Learn More about the Website</h2>
+            <p class="lead">
+              With GitHack Image Processor you can upload any image or video and apply one of the given filters. Simply upload your file, pick one of the filters, and play around with the parameters until you get the desired result. The available filters and their effects are described below.
+            </p>
+            <ul class="list-nav">
+              <li><i class="icon-dot-circle-o"></i>Brightness: Increase or Decrease Brightness.</li>
+              <li><i class="icon-dot-circle-o"></i>Pencil Sketch: Pencil Sketch of an Image.</li>
+              <li><i class="icon-dot-circle-o"></i>Negative: Invert Image to create a Negative effect.</li>
+              <li><i class="icon-dot-circle-o"></i>Color Extract: Extract pixels belonging to a specified color-range from an image.</li>
+              <li><i class="icon-dot-circle-o"></i>Color Focus: Focus on the pixels belonging to a specified color-range.</li>
+              <li><i class="icon-dot-circle-o"></i>Cartoon: Cartoonistic illustration of image.</li>
+            </ul>
+            <p>
+              The filter functionalities have been implemented using Python’s OpenCV Computer Vision library and tools. The following file formats are supported by the application: .png, .jpeg, .jpg, .bmp, .tiff'. The user is provided the option to customize the effects of their selected filters using options such as kernel size and color range.
+            </p>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fh5co-explore" data-section="practice-areas">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 section-heading text-center">
+            <h2 class="to-animate">Processing Area</h2>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                <h3 style="color: #bbbdc9; margin-bottom: none;">
+                  To process an image, you have to first upload it.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fh5co-explore">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-push-5 to-animate-2">
+              {% if filename %}
+                <div>
+                  <img src="{{ url_for('static', filename='/uploaded/'+filename) }}" class="imgCenter">
+                </div>
+              {% else %}
+                <div>
+                  <img src="{{ url_for('static', filename='/images/img_2.jpg') }}" class="imgCenter">
+                </div>
+              {% endif %}
+            </div>
+            <div class="col-md-4 col-md-pull-8 to-animate-2">
+              <form action="{{url_for('upload_file') }}" method="POST" enctype="multipart/form-data" id="main-form">                
+                <div class="mt">
+                  <h3>Drop your File Here</h3>
+                  <p>
+                    To upload a file, click "Choose File", browse to your file
+                    location and select it. To remove the selected file, click
+                    "Choose File" again and close or cancel the file explorer.
+                  </p>
+                  <input type="file" name="inpFile" id="inpFile"/>
+                  <input type="hidden" name="selected-val" id="selected-val"/>
+                  <div class="image-preview" id="imagePreview">
+                    <img src="" alt="Image Preview" class="image-preview__image"/>
+                    <span class="image-preview__default-text">Image Preview</span>
+                  </div>
+                  <script>
+                    const inpFile = document.getElementById("inpFile");
+                    const previewContainer =
+                      document.getElementById("imagePreview");
+                    const previewImage = previewContainer.querySelector(
+                      ".image-preview__image"
+                    );
+                    const previewDefaultText = previewContainer.querySelector(
+                      ".image-preview__default-text"
+                    );
+                    inpFile.addEventListener("change", function () {
+                      const file = this.files[0];
+                      if (file) {
+                        const reader = new FileReader();
+                        previewDefaultText.style.display = "none";
+                        previewImage.style.display = "block";
+                        reader.addEventListener("load", function () {
+                          previewImage.setAttribute("src", this.result);
+                        });
+                        reader.readAsDataURL(file);
+                      } else {
+                        previewDefaultText.style.display = null;
+                        previewImage.style.display = null;
+                        previewImage.setAttribute("src", "");
+                      }
+                    });
+                  </script>   				
+                  <p>Which filter would you like to apply to your image? </p>   
+                  <div class="select-box">
+                    <div class="options-container">
+                      <div class="option">                           
+                        <input type="button" class="radio" id="bright" name="category" onclick="showDiv1()"/>
+                        <label style="width: 100%;" for="bright">Brightness</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="button" class="radio" id="sketch" name="category" onclick="showDiv2()"/>
+                        <label style="width: 100%;" for="sketch">Pencil Sketch</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="button" class="radio" id="negative" name="category" onclick="showDiv4()"/>
+                        <label style="width: 100%;" for="negative">Negative</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="button" class="radio" id="extract" name="category" onclick="showDiv5()"/>
+                        <label style="width: 100%;" for="extract">Color Extract</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="button" class="radio" id="focus" name="category" onclick="showDiv6()"/>
+                        <label style="width: 100%;" for="focus">Color Focus</label>
+                      </div>
+            
+                      <div class="option">
+                        <input type="button" class="radio" id="cartoon" name="category" onclick="showDiv3()"/>
+                        <label style="width: 100%;" for="cartoon">Cartoon</label>
+                      </div>
+                    </div>
+
+                    <div id="brightOpt" style="display:none; margin-bottom: 10px;" class="rangeBar" >
+                      <p>Tune the brightness of your sketch (the higher the value, the brighter your sketch)</p>
+                      <input type="range" id="brightBar" name="brightRangeInput" class="rangeInput" min="0" max="150" onchange="updateTextInput1(this.value);">
+                      <input type="text" id="brightText" class="textInput" value="75" style="color: black;" onchange="updateBarInput1(this.value);"> 
+                    </div> 
+
+                    <div id="sketchOpt" style="display:none; margin-bottom: 10px;">
+                      <p>Select kernel size (between 3 and 101)</p>
+                      <input type="range" id="sketchBar" name="sketchRangeInput"  class="rangeInput" min="3" max="101" onchange="updateTextInput2(this.value);">
+                      <input type="text" id="sketchText" class="textInput" value="52" style="color: black;" onchange="updateBarInput2(this.value);"> 
+                    </div> 
+                    
+                    <div id="cartoonOpt" style="display:none; margin-bottom: 10px;">
+                      <p>Select kernel size (between 3 and 11)</p>
+                      <input type="range" id="cartoonBar1" name="cartoonRangeInput1"  class="rangeInput" min="3" max="11" onchange="updateTextInput3(this.value);">
+                      <input type="text" id="cartoonText1" class="textInput" value="3" style="color: black;" onchange="updateBarInput3(this.value);">      
+                      <p>Select pixel neighborhood size (between 3 and 15)</p>
+                      <input type="range" id="cartoonBar2" name="cartoonRangeInput2"  class="rangeInput" min="3" max="15" onchange="updateTextInput4(this.value);">
+                      <input type="text" id="cartoonText2" class="textInput" value="9" style="color: black;" onchange="updateBarInput4(this.value);"> 
+                    </div> 
+
+                    <div id="extractOpt" style="display:none; margin-bottom: 10px; width: 400px;" class="rangeBar" >
+                      <p>Lower Bounds</p>
+                      <span>Hue (between 0 and 180)</span>
+                      <input type="range" id="extractBar1" name="extractRangeInput1" class="rangeInput" min="0" max="180" onchange="updateTextInput5(this.value);">
+                      <input type="text" id="extractText1" class="textInput" value="50" style="color: black;" onchange="updateBarInput5(this.value);">
+                      <span><br>Saturation (between 0 and 255)</span>
+                      <input type="range" id="extractBar2" name="extractRangeInput2" class="rangeInput" min="0" max="255" onchange="updateTextInput6(this.value);">
+                      <input type="text" id="extractText2" class="textInput" value="50" style="color: black;" onchange="updateBarInput6(this.value);"> 
+                      <span><br>Value (between 0 and 255)</span>
+                      <input type="range" id="extractBar3" name="extractRangeInput3" class="rangeInput" min="0" max="255" onchange="updateTextInput7(this.value);">
+                      <input type="text" id="extractText3" class="textInput" value="50" style="color: black;" onchange="updateBarInput7(this.value);"> 
+                      <p><br>Upper Bounds</p>
+                      <span>Hue (between 0 and 180)</span>
+                      <input type="range" id="extractBar4" name="extractRangeInput4" class="rangeInput" min="0" max="180" onchange="updateTextInput8(this.value);">
+                      <input type="text" id="extractText4" class="textInput" value="150" style="color: black;" onchange="updateBarInput8(this.value);">
+                      <span><br>Saturation (between 0 and 255)</span>
+                      <input type="range" id="extractBar5" name="extractRangeInput5" class="rangeInput" min="0" max="255" onchange="updateTextInput9(this.value);">
+                      <input type="text" id="extractText5" class="textInput" value="150" style="color: black;" onchange="updateBarInput9(this.value);"> 
+                      <span><br>Value (between 0 and 255)</span>
+                      <input type="range" id="extractBar6" name="extractRangeInput6" class="rangeInput" min="0" max="255" onchange="updateTextInput10(this.value);">
+                      <input type="text" id="extractText6" class="textInput" value="150" style="color: black;" onchange="updateBarInput10(this.value);">
+                    </div> 
+
+                    <div id="focusOpt" style="display:none; margin-bottom: 10px; width: 400px;" class="rangeBar" >
+                      <p>Lower Bounds</p>
+                      <span>Hue (between 0 and 180)</span>
+                      <input type="range" id="focusBar1" name="focusRangeInput1" class="rangeInput" min="0" max="180" onchange="updateTextInput11(this.value);">
+                      <input type="text" id="focusText1" class="textInput" value="50" style="color: black;" onchange="updateBarInput11(this.value);">
+                      <span><br>Saturation (between 0 and 255)</span>
+                      <input type="range" id="focusBar2" name="focusRangeInput2" class="rangeInput" min="0" max="255" onchange="updateTextInput12(this.value);">
+                      <input type="text" id="focusText2" class="textInput" value="50" style="color: black;" onchange="updateBarInput12(this.value);"> 
+                      <span><br>Value (between 0 and 255)</span>
+                      <input type="range" id="focusBar3" name="focusRangeInput3" class="rangeInput" min="0" max="255" onchange="updateTextInput13(this.value);">
+                      <input type="text" id="focusText3" class="textInput" value="50" style="color: black;" onchange="updateBarInput13(this.value);"> 
+                      <p><br>Upper Bounds</p>
+                      <span>Hue (between 0 and 180)</span>
+                      <input type="range" id="focusBar4" name="focusRangeInput4" class="rangeInput" min="0" max="180" onchange="updateTextInput14(this.value);">
+                      <input type="text" id="focusText4" class="textInput" value="150" style="color: black;" onchange="updateBarInput14(this.value);">
+                      <span><br>Saturation (between 0 and 255)</span>
+                      <input type="range" id="focusBar5" name="focusRangeInput5" class="rangeInput" min="0" max="255" onchange="updateTextInput15(this.value);">
+                      <input type="text" id="focusText5" class="textInput" value="150" style="color: black;" onchange="updateBarInput15(this.value);"> 
+                      <span><br>Value (between 0 and 255)</span>
+                      <input type="range" id="focusBar6" name="focusRangeInput6" class="rangeInput" min="0" max="255" onchange="updateTextInput16(this.value);">
+                      <input type="text" id="focusText6" class="textInput" value="150" style="color: black;" onchange="updateBarInput16(this.value);"> 
+                      <script>
+                        function updateTextInput1(val) {
+                          document.getElementById('brightText').value=val; 
+                        }
+                        function updateBarInput1(val) {
+                          if (val>150){
+                            document.getElementById('brightBar').value=150;
+                            document.getElementById('brightText').value=150;                          
+                          } else{
+                            document.getElementById('brightBar').value=val;     
+                          }
+                        }
+                        
+                        function updateTextInput2(val) {
+                          document.getElementById('sketchText').value=val; 
+                        }
+                        function updateBarInput2(val) {
+                          if (val>101){
+                            document.getElementById('sketchBar').value=101;
+                            document.getElementById('sketchText').value=101;
+                          } else{
+                            document.getElementById('sketchBar').value=val; 
+                          }
+                        }
+                        function showDiv1() {
+                          document.getElementById('brightOpt').style.display = "block";
+                          document.getElementById('sketchOpt').style.display = "none";
+                          document.getElementById('cartoonOpt').style.display = "none";
+                          document.getElementById('extractOpt').style.display = "none";
+                          document.getElementById('focusOpt').style.display = "none";
+                        }
+                        function showDiv4() {
+                          document.getElementById('brightOpt').style.display = "none";
+                          document.getElementById('sketchOpt').style.display = "none";
+                          document.getElementById('cartoonOpt').style.display = "none";
+                          document.getElementById('extractOpt').style.display = "none";
+                          document.getElementById('focusOpt').style.display = "none";
+                        }
+                        function showDiv2() {
+                          document.getElementById('sketchOpt').style.display = "block";
+                          document.getElementById('brightOpt').style.display = "none";
+                          document.getElementById('cartoonOpt').style.display = "none";
+                          document.getElementById('extractOpt').style.display = "none";
+                          document.getElementById('focusOpt').style.display = "none";
+                        }
+                        function updateTextInput3(val) {
+                          document.getElementById('cartoonText1').value=val; 
+                        }
+                        function updateBarInput3(val) {
+                          if (val>11){
+                            document.getElementById('cartoonBar1').value=11;
+                            document.getElementById('cartoonText1').value=11;
+                          } else{
+                            document.getElementById('cartoonBar1').value=val; 
+                          }
+                        }
+                        function updateTextInput4(val) {
+                          document.getElementById('cartoonText2').value=val; 
+                        }
+                        function updateBarInput4(val) {
+                          if (val>15){
+                            document.getElementById('cartoonBar2').value=15;
+                            document.getElementById('cartoonText2').value=15;
+                          } else{
+                            document.getElementById('cartoonBar2').value=val; 
+                          }
+                        }
+                        function showDiv3() {
+                          document.getElementById('cartoonOpt').style.display = "block";
+                          document.getElementById('sketchOpt').style.display = "none";
+                          document.getElementById('brightOpt').style.display = "none";
+                          document.getElementById('extractOpt').style.display = "none";
+                          document.getElementById('focusOpt').style.display = "none";
+                        }
+                        function updateTextInput5(val) {
+                          document.getElementById('extractText1').value=val; 
+                        }
+                        function updateBarInput5(val) {
+                          if (val>180){
+                            document.getElementById('extractBar1').value=180;
+                            document.getElementById('extractText1').value=180;
+                          } else{
+                            document.getElementById('extractBar1').value=val; 
+                          }
+                        }function updateTextInput6(val) {
+                          document.getElementById('extractText2').value=val; 
+                        }
+                        function updateBarInput6(val) {
+                          if (val>255){
+                            document.getElementById('extractBar2').value=255;
+                            document.getElementById('extractText2').value=255;
+                          } else{
+                            document.getElementById('extractBar2').value=val; 
+                          }
+                        }function updateTextInput7(val) {
+                          document.getElementById('extractText3').value=val; 
+                        }
+                        function updateBarInput7(val) {
+                          if (val>255){
+                            document.getElementById('extractBar3').value=255;
+                            document.getElementById('extractText3').value=255;
+                          } else{
+                            document.getElementById('extractBar3').value=val; 
+                          }
+                        }function updateTextInput8(val) {
+                          document.getElementById('extractText4').value=val; 
+                        }
+                        function updateBarInput8(val) {
+                          if (val>180){
+                            document.getElementById('extractBar4').value=180;
+                            document.getElementById('extractText4').value=180;
+                          } else{
+                            document.getElementById('extractBar4').value=val; 
+                          }
+                        }function updateTextInput9(val) {
+                          document.getElementById('extractText5').value=val; 
+                        }
+                        function updateBarInput9(val) {
+                          if (val>255){
+                            document.getElementById('extractBar5').value=255;
+                            document.getElementById('extractText5').value=255;
+                          } else{
+                            document.getElementById('extractBar5').value=val; 
+                          }
+                        }function updateTextInput10(val) {
+                          document.getElementById('extractText6').value=val; 
+                        }
+                        function updateBarInput10(val) {
+                          if (val>255){
+                            document.getElementById('extractBar6').value=255;
+                            document.getElementById('extractText6').value=255;
+                          } else{
+                            document.getElementById('extractBar6').value=val; 
+                          }
+                        }
+                        function showDiv5() {
+                          document.getElementById('brightOpt').style.display = "none";
+                          document.getElementById('sketchOpt').style.display = "none";
+                          document.getElementById('cartoonOpt').style.display = "none";
+                          document.getElementById('extractOpt').style.display = "block";
+                          document.getElementById('focusOpt').style.display = "none";
+                        }
+                        function updateTextInput11(val) {
+                          document.getElementById('focusText1').value=val; 
+                        }
+                        function updateBarInput11(val) {
+                          if (val>180){
+                            document.getElementById('focusBar1').value=180;
+                            document.getElementById('focusText1').value=180;
+                          } else{
+                            document.getElementById('focusBar1').value=val; 
+                          }
+                        }function updateTextInput12(val) {
+                          document.getElementById('focusText2').value=val; 
+                        }
+                        function updateBarInput12(val) {
+                          if (val>255){
+                            document.getElementById('focusBar2').value=255;
+                            document.getElementById('focusText2').value=255;
+                          } else{
+                            document.getElementById('focusBar2').value=val; 
+                          }
+                        }function updateTextInput13(val) {
+                          document.getElementById('focusText3').value=val; 
+                        }
+                        function updateBarInput13(val) {
+                          if (val>255){
+                            document.getElementById('focusBar3').value=255;
+                            document.getElementById('focusText3').value=255;
+                          } else{
+                            document.getElementById('focusBar3').value=val; 
+                          }
+                        }function updateTextInput14(val) {
+                          document.getElementById('focusText4').value=val; 
+                        }
+                        function updateBarInput14(val) {
+                          if (val>180){
+                            document.getElementById('focusBar4').value=180;
+                            document.getElementById('focusText4').value=180;
+                          } else{
+                            document.getElementById('focusBar4').value=val; 
+                          }
+                        }function updateTextInput15(val) {
+                          document.getElementById('focusText5').value=val; 
+                        }
+                        function updateBarInput15(val) {
+                          if (val>255){
+                            document.getElementById('focusBar5').value=255;
+                            document.getElementById('focusText5').value=255;
+                          } else{
+                            document.getElementById('focusBar5').value=val; 
+                          }
+                        }function updateTextInput16(val) {
+                          document.getElementById('focusText6').value=val; 
+                        }
+                        function updateBarInput16(val) {
+                          if (val>255){
+                            document.getElementById('focusBar6').value=255;
+                            document.getElementById('focusText6').value=255;
+                          } else{
+                            document.getElementById('focusBar6').value=val; 
+                          }
+                        }
+                        function showDiv6() {
+                          document.getElementById('brightOpt').style.display = "none";
+                          document.getElementById('sketchOpt').style.display = "none";
+                          document.getElementById('cartoonOpt').style.display = "none";                        
+                          document.getElementById('extractOpt').style.display = "none";
+                          document.getElementById('focusOpt').style.display = "block";
+                        }
+                      </script>
+                    </div> 
+
+                    <div class="selected">
+                      Select Your Filter
+                    </div>
+                  </div>
+                  <script>
+                    const selected = document.querySelector(".selected");
+                    const optionsContainer = document.querySelector(".options-container");
+                    const optionsList = document.querySelectorAll(".option");
+                    selected.addEventListener("click", () => {
+                      optionsContainer.classList.toggle("active");
+                    });
+                    optionsList.forEach(o => {
+                      o.addEventListener("click", () => {
+                        selected.innerHTML = o.querySelector("label").innerHTML;                        
+                      document.getElementById("selected-val").value=o.querySelector("label").innerHTML;
+                        optionsContainer.classList.remove("active");
+                      });
+                    });
+                  </script>  
+                  <input type="submit" value="Submit" style="color: white; background-color: #2f3640;" >                
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section id="fh5co-footer" data-section="contact" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 to-animate">
+            <h3 class="section-title">About Us</h3>
+			<p style="font-size: 20px;">Vivek Haridas and Arunima Divya</p>
+            <p>
+              Two aspiring students from the 2023 batch of Artificial Intelligence
+			        from Amrita College of Engineering, Amritapuri. <br>			  
+            </p>
+          </div>
+
+          <div class="col-md-4 to-animate">
+            <h3 class="section-title">Github</h3>
+            <ul class="contact-info">				
+              <li>
+                <a href="https://github.com/VivekHaridas-01" class="github"><i class="icon-github-alt"></i>VivekHaridas-01</a>
+              </li>
+              <li>
+                <a href="https://github.com/arunimadivya" class="github"><i class="icon-github-alt"></i>arunimadivya</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 to-animate">
+            <h3 class="section-title">Leave us a feedback</h3>
+            <form class="contact-form" action="https://formsubmit.co/arunimavivek142720@gmail.com" method="POST">
+              <div class="form-group">
+                <label for="name" class="sr-only">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Name" required/>
+              </div>
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required/>
+              </div>
+              <div class="form-group">
+                <label for="message" class="sr-only">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="7"
+                  placeholder="Message"
+                ></textarea>
+                <!-- <input type="hidden" name="_subject" value="New Feedback Mail!"> -->
+                <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+              </div>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  id="btn-submit"
+                  class="btn btn-send-message btn-md"
+                  value="Send Message"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="static/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="static/js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="static/js/jquery.stellar.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="static/js/owl.carousel.min.js"></script>
+    <!-- Main JS (Do not remove) -->
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
